@@ -1,3 +1,4 @@
+// menu-btn part start
 let navbar = document.querySelector(".header .navbar");
 
 document.querySelector("#menu-btn").onclick = () => {
@@ -7,6 +8,10 @@ document.querySelector("#menu-btn").onclick = () => {
 window.onscroll = () => {
   navbar.classList.remove("active");
 };
+
+// menu-btn part ends
+
+// slider home pic start
 
 var swiper = new Swiper(".home-slider", {
   loop: true,
@@ -24,3 +29,5 @@ var swiper = new Swiper(".home-slider", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// slider home pic ends
